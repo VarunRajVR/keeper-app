@@ -41,21 +41,6 @@ Follow these steps to run the app locally:
    ```
    This will start the app on a local development server. Open your browser and navigate to `http://localhost:5173` to view the app.
 
-4. **Build the app for production:**
-   ```bash
-   npm run build
-   ```
-   The production-ready files will be generated in the `dist` directory.
-
-5. **Deploy the app:**
-   ```bash
-   npm run deploy
-   ```
-   Ensure the `homepage` field in `package.json` is correctly set to:
-
-   ```json
-   "homepage": "https://<your-username>.github.io/keeper-app/"
-   ```
 
 ## Technologies Used
 
